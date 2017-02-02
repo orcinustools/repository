@@ -1,0 +1,15 @@
+stack: "wordpress"
+
+services:
+  wordpress:
+    image: "ninja.ijakarta.id/wordpress:latest"
+    ports:
+      - "8080:80"
+    environment:
+      - "WORDPRESS_DB_HOST=db:3306"
+      - "WORDPRESS_DB_PASSWORD=wordpress"
+
+  db:
+    image: "ninja.ijakarta.id/mysql:latest"
+    environment:
+      - "MYSQL_ROOT_PASSWORD=wordpress"
