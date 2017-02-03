@@ -1,0 +1,6 @@
+stack: "grafana"
+services:
+  grafana:
+    image: "ninja.ijakarta.id/grafana"
+    ports:
+    - "8000:3000"
