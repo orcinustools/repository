@@ -1,0 +1,8 @@
+stack: "ghost"
+
+services:
+  ghost:
+    image: "ninja.ijakarta.id/ghost"
+    container_name: "some-ghost"
+    ports:
+    - "8080:2368"
