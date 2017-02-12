@@ -1,0 +1,15 @@
+stack: "redis"
+
+services:
+  redis:
+    image: "ninja.ijakarta.id/redis:latest"
+#     ports:
+#       - ":"
+#     environment:
+#       - ""
+
+# volume:
+#   redis-conf:
+#     type: "nfs"
+#     address: "localhost"
+#     source: "redis.conf"
