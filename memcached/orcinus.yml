@@ -1,0 +1,9 @@
+stack: "memcached"
+
+services:
+  memcached: 
+    image: "ninja.ijakarta.id/memcached:latest"
+    # port:
+    #   - ""
+    # environment:
+    #   - ""
