@@ -3,6 +3,7 @@ stack: "joomla"
 services:
   joomla:
     image: "ninja.ijakarta.id/joomla:3.6.5-apache"
+    auth: true
     ports:
       - "8080:80"
     environment:
@@ -11,5 +12,6 @@ services:
 
   joomladb:
     image: "ninja.ijakarta.id/mysql:latest"
+    auth: true
     environment:
     - "MYSQL_ROOT_PASSWORD=joomla"
