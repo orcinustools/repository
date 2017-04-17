@@ -3,6 +3,7 @@ stack: "wordpress"
 services:
   wordpress:
     image: "ninja.ijakarta.id/wordpress:latest"
+    auth: true
     ports:
       - "8080:80"
     environment:
@@ -11,5 +12,6 @@ services:
 
   db:
     image: "ninja.ijakarta.id/mysql:latest"
+    auth: true
     environment:
       - "MYSQL_ROOT_PASSWORD=wordpress"
