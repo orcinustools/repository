@@ -3,5 +3,5 @@
   "logo" : "logo.svg",
   "dependencies" : [
     "mysql"
-  ],
+  ]
 }
