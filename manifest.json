@@ -1,0 +1,22 @@
+{
+  "categorys":
+  [
+    {
+      "applications":[
+        "wordpress",
+        "joomla",
+        "grafana",
+        "ghost"
+      ]
+    },
+    {"frameworks":[]},
+    {"databases":[
+      "mysql",
+      "postgre",
+      "redis",
+      "mongo",
+      "memchached"
+    ]},
+    {"languages":[]},
+  ]
+}
