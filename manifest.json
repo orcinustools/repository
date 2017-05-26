@@ -1,5 +1,5 @@
 {
-  "categorys":
+  "categories":
   [
     {
       "applications":[
@@ -9,14 +9,20 @@
         "ghost"
       ]
     },
-    {"frameworks":[]},
-    {"databases":[
-      "mysql",
-      "postgre",
-      "redis",
-      "mongo",
-      "memchached"
-    ]},
-    {"languages":[]},
+    {
+      "databases":[
+        "mysql",
+        "postgre",
+        "redis",
+        "mongo",
+        "memchached"
+      ]
+    },
+    {
+      "frameworks":[]
+    },
+    {
+      "languages":[]
+    }
   ]
 }
