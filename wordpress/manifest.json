@@ -1,0 +1,7 @@
+{
+  "name" : "wordpress",
+  "logo" : "logo.svg",
+  "dependencies" : [
+    "mysql"
+  ],
+}
