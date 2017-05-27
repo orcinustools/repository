@@ -7,11 +7,5 @@ services:
     ports:
       - "8080:80"
     environment:
-      - "WORDPRESS_DB_HOST=db:3306"
+      - "WORDPRESS_DB_HOST=mysql:3306"
       - "WORDPRESS_DB_PASSWORD=wordpress"
-
-  db:
-    image: "ninja.ijakarta.id/mysql:latest"
-    auth: true
-    environment:
-      - "MYSQL_ROOT_PASSWORD=wordpress"
