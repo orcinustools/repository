@@ -4,11 +4,11 @@ services:
   mysql:
     image: "ninja.ijakarta.id/mysql:latest"
     port:
-      # - "3306:3306" # Publish port to host
+      - "3306:3306" # Publish port to host
     environment:
       - "MYSQL_ROOT_PASSWORD=root"
-      #- "MYSQL_DATABASE=[database name]"
-      # - "MYSQL_USER=[database user]" # New Mysql User
-      # - "MYSQL_PASSWORD=[user password]" #  Mysql User password 
-      # - "MYSQL_ALLOW_EMPTY_PASSWORD=[yes]" # To start the container with blank root password
-      # - "MYSQL_RANDOM_ROOT_PASSWORD=[yes]" # To generate random password  
+      - "MYSQL_DATABASE=[database name]"
+      - "MYSQL_USER=[database user]" # New Mysql User
+      - "MYSQL_PASSWORD=[user password]" #  Mysql User password 
+      - "MYSQL_ALLOW_EMPTY_PASSWORD=[yes]" # To start the container with blank root password
+      - "MYSQL_RANDOM_ROOT_PASSWORD=[yes]" # To generate random password  
