@@ -1,0 +1,4 @@
+stack: "alpine"
+services:
+  alpine:
+    image: "alpine:latest"
