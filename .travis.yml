@@ -1,0 +1,15 @@
+install: |
+  if [ -n "$GITHUB_API_KEY" ]; then
+    cd "$TRAVIS_BUILD_DIR"
+    git clone https://anak10thn:$GITHUB_API_KEY@github.com/orcinustools/omura.git
+    cd omura
+    git config --global user.email "anak10thn@gmail.com"
+    git config --global user.name "anak10thn"
+    git status
+    git remote rm origin
+    git remote add origin https://anak10thn:$GITHUB_API_KEY@github.com/orcinustools/omura.git
+    echo "1."$TRAVIS_BUILD_NUMBER >version
+    git add -f version
+    git commit -m "BUILD: dashboard, build number : $TRAVIS_BUILD_NUMBER"
+    git push -fq origin master
+  fi
