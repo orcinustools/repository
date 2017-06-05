@@ -1,0 +1,4 @@
+stack: "couchbase"
+services:
+  couchbase:
+    image: "couchbase:latest"
