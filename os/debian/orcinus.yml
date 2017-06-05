@@ -1,0 +1,4 @@
+stack: "debian"
+services:
+  debian:
+    image: "debian:latest"

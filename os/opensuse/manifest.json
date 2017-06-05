@@ -1,0 +1,7 @@
+{
+  "name" : "opensuse",
+  "title": "Open Suse",
+  "logo" : "logo.svg",
+  "description" : "The makers' choice for sysadmins, developers and desktop users.",
+  "dependencies" : null
+}

@@ -1,0 +1,4 @@
+stack: "centos"
+services:
+  centos:
+    image: "centos:latest"

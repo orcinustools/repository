@@ -1,0 +1,4 @@
+stack: "ubuntu"
+services:
+  ubuntu:
+    image: "ubuntu:latest"

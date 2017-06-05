@@ -1,0 +1,4 @@
+stack: "opensuse"
+services:
+  opensuse:
+    image: "opensuse:latest"

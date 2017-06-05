@@ -1,0 +1,7 @@
+{
+  "name" : "ubuntu",
+  "title": "Ubuntu",
+  "logo" : "logo.svg",
+  "description" : "Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.",
+  "dependencies" : null
+}
