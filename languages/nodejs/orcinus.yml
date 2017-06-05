@@ -1,0 +1,5 @@
+stack: "nodejs"
+
+services:
+  nodejs:
+    image: "node:latest"

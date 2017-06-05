@@ -1,0 +1,5 @@
+stack: "python"
+
+services:
+  python:
+    image: "python:latest"

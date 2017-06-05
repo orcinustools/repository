@@ -1,0 +1,7 @@
+{
+  "name" : "ruby",
+  "title": "Ruby",
+  "logo" : "logo.svg",
+  "description" : "A dynamic, open source programming language with a focus on simplicity and productivity.",
+  "dependencies" : []
+}

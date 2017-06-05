@@ -1,0 +1,5 @@
+stack: "php"
+
+services:
+  php:
+    image: "php:latest"

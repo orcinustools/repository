@@ -1,0 +1,5 @@
+stack: "ruby"
+
+services:
+  ruby:
+    image: "ruby:latest"
