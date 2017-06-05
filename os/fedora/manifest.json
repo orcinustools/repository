@@ -3,5 +3,5 @@
   "title": "Fedora",
   "logo" : "logo.svg",
   "description" : "Less setup, more innovation. Choose a flavor of Fedora streamlined for your needs, and get to work right away.",
-  "dependencies" : null
+  "dependencies" : []
 }

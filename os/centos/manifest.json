@@ -3,5 +3,5 @@
   "title": "CentOS",
   "logo" : "logo.svg",
   "description" : "The CentOS Linux distribution is a stable, predictable, manageable and reproducible platform derived from the sources of Red Hat Enterprise Linux (RHEL)",
-  "dependencies" : null
+  "dependencies" : []
 }
