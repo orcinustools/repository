@@ -1,4 +1,4 @@
-stack: "couchbase"
+stack: "rails"
 services:
-  couchbase:
-    image: "couchbase:latest"
+  rails:
+    image: "rails:latest"

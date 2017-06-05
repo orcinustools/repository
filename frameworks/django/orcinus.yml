@@ -1,4 +1,4 @@
-stack: "couchbase"
+stack: "django"
 services:
-  couchbase:
+  django:
     image: "couchbase:latest"

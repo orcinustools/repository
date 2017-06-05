@@ -1,0 +1,4 @@
+stack: "laravel"
+services:
+  laravel:
+    image: "bitnami/laravel:latest"

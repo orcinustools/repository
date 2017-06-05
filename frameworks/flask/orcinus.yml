@@ -1,4 +1,4 @@
-stack: "couchbase"
+stack: "flask"
 services:
-  couchbase:
-    image: "couchbase:latest"
+  flask:
+    image: "p0bailey/docker-flask:latest"
