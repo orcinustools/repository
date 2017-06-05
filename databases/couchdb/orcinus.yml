@@ -1,0 +1,4 @@
+stack: "couchdb"
+services:
+  couchdb:
+    image: "couchdb:latest"

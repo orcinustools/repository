@@ -1,0 +1,4 @@
+stack: "mariadb"
+services:
+  mariadb:
+    image: "mariadb:latest"

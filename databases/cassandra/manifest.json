@@ -1,0 +1,7 @@
+{
+  "name" : "cassandra",
+  "title": "Cassandra",
+  "logo" : "logo.svg",
+  "description" : "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance.",
+  "dependencies" : []
+}
