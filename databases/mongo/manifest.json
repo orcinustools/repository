@@ -1,8 +1,6 @@
 {
-  "name" : "wordpress",
+  "name" : "mongodb",
   "logo" : "logo.svg",
   "description" : "Elit aliquip tempor nulla officia elit laboris nulla irure dolor deserunt amet Lorem. Quis amet quis deserunt eu nostrud Lorem sint exercitation culpa. Laboris commodo excepteur incididunt mollit do eiusmod magna quis veniam adipisicing sunt laborum aute. Deserunt magna adipisicing in ipsum ea labore. Cillum sit aliqua non mollit duis exercitation. Lorem velit ad enim aliquip adipisicing et dolor eiusmod do culpa sint. Tempor laborum consectetur ad reprehenderit veniam elit id excepteur commodo quis deserunt.",
-  "dependencies" : [
-    "databases/mysql"
-  ]
+  "dependencies" : []
 }
