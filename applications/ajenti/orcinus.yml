@@ -1,0 +1,8 @@
+stack: "ajenti"
+
+services:
+  ghost:
+    image: "ninja.ijakarta.id/ajenti"
+    container_name: "some-ghost"
+    ports:
+    - "8080:2368"
