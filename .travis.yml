@@ -10,6 +10,6 @@ install: |
     git remote add origin https://anak10thn:$GITHUB_API_KEY@github.com/orcinustools/omura.git
     echo "1."$TRAVIS_BUILD_NUMBER >version
     git add -f version
-    git commit -m "BUILD: dashboard, build number : $TRAVIS_BUILD_NUMBER"
+    git commit -m "BUILD: repository, build number : $TRAVIS_BUILD_NUMBER"
     git push -fq origin master
   fi
