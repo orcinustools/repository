@@ -3,26 +3,32 @@
   [
     {
       "applications":[
-        "wordpress",
-        "joomla",
+        "ajenti",
+        "ghost",
         "grafana",
-        "ghost"
+        "joomla",
+        "nagios",
+        "wordpress"
       ]
     },
     {
       "databases":[
         "mysql",
-        "postgre",
+        "postgresql",
         "redis",
         "mongo",
         "memchached"
       ]
     },
     {
-      "frameworks":[]
+      "frameworks":[
+        "laravel"
+      ]
     },
     {
-      "languages":[]
+      "os":[
+        "alpine"
+      ]
     }
   ]
 }
