@@ -3,9 +3,9 @@ stack: "mysql"
 services:
   mysql:
     image: "ninja.ijakarta.id/mysql:latest"
-    port:
+    ports:
       - "3306:3306" # Publish port to host
-    environment:
+    environments:
       - "MYSQL_ROOT_PASSWORD=root"
       - "MYSQL_DATABASE=[database name]"
       - "MYSQL_USER=[database user]" # New Mysql User
