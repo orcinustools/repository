@@ -2,3 +2,5 @@ stack: "alpine"
 services:
   alpine:
     image: "alpine:latest"
+    ports: []
+    environments: []
