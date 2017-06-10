@@ -6,6 +6,6 @@ services:
     auth: true
     ports:
       - "8080:80"
-    environments:
+    environment:
       - "WORDPRESS_DB_HOST=mysql:3306"
       - "WORDPRESS_DB_PASSWORD=root"
