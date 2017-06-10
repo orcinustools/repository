@@ -3,6 +3,7 @@ stack: "mysql"
 services:
   mysql:
     image: "ninja.ijakarta.id/mysql:latest"
+    auth: true
     ports:
       - "3306:3306" # Publish port to host
     environments:
