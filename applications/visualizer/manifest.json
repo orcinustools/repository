@@ -1,7 +1,0 @@
-{
-  "name" : "visualizer",
-  "title" : "Visualizer",
-  "logo" : "logo.svg",
-  "description" : "A visualizer for Docker Swarm Mode using the Docker Remote API, Node.JS, and D3",
-  "dependencies" : []
-}
