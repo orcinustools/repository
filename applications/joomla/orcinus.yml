@@ -7,5 +7,5 @@ services:
     ports:
       - "8080:80"
     environment:
-      - "JOOMLA_DB_HOST=joomladb:3306"
-      - "JOOMLA_DB_PASSWORD=joomla"
+      - "JOOMLA_DB_HOST=mysql:3306"
+      - "JOOMLA_DB_PASSWORD=mysql"
