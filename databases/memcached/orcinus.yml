@@ -2,7 +2,7 @@ stack: "memcached"
 
 services:
   memcached: 
-    image: "ninja.ijakarta.id/memcached:latest"
+    image: "memcached:latest"
     # port:
     #   - ""
     # environment:
