@@ -1,0 +1,6 @@
+stack: "mongodb"
+services:
+  mongodb:
+    image: "bitnami/mongodb:latest"
+    ports:
+      - "27017:27017"
