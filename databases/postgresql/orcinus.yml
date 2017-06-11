@@ -3,8 +3,8 @@ stack: "postgres"
 services:
   postgres:
     image: "ninja.ijakarta.id/postgres:latest"
-    port:
-      # - "5432:5432" # publish port to host
+    ports:
+      - "5432" # publish port to host
     environtment:
       - "POSTGRES_PASSWORD=root" # required, postgress super user password
       # - "POSTGRES_USER=[optional]" # optional, to set user password
