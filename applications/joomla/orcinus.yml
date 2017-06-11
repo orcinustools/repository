@@ -8,4 +8,4 @@ services:
       - "8000:80"
     environment:
       - "JOOMLA_DB_HOST=mysql:3306"
-      - "JOOMLA_DB_PASSWORD=mysql"
+      - "JOOMLA_DB_PASSWORD=root"
