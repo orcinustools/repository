@@ -2,5 +2,4 @@ stack: "ghost"
 services:
   ghost:
     image: "ghost"
-    labels:
-      traefik.port: "2368"
+    endpoint: "2368"

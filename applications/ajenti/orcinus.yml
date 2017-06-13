@@ -3,5 +3,4 @@ stack: "ajenti"
 services:
   ajenti:
     image: "ninja.ijakarta.id/ajenti"
-    labels:
-      traefik.port: "80"
+    endpoint: "80"

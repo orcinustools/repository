@@ -4,8 +4,7 @@ services:
   wordpress:
     image: "ninja.ijakarta.id/wordpress:latest"
     auth: true
-    labels:
-      traefik.port: "80"
+    endpoint: "80"
     environment:
       - "WORDPRESS_DB_HOST={orcinus.userid}-{orcinus.stack}-mysql:3306"
       - "WORDPRESS_DB_PASSWORD=root"

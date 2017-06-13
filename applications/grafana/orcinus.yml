@@ -2,5 +2,4 @@ stack: "grafana"
 services:
   grafana:
     image: "ninja.ijakarta.id/grafana"
-    labels:
-      traefik.port: "3000"
+    endpoint: "3000"
