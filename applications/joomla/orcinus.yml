@@ -3,9 +3,8 @@ stack: "joomla"
 services:
   joomla:
     image: "ninja.ijakarta.id/joomla:3.6.5-apache"
-    auth: true
-    ports:
-      - "8000:80"
+    labels:
+      traefik.port: "80"
     environment:
-      - "JOOMLA_DB_HOST=mysql:3306"
+      - "JOOMLA_DB_HOST={orcinus.userid}-{orcinus.stack}-mysql:3306"
       - "JOOMLA_DB_PASSWORD=root"

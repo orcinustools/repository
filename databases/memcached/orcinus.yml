@@ -3,7 +3,3 @@ stack: "memcached"
 services:
   memcached: 
     image: "memcached:latest"
-    # port:
-    #   - ""
-    # environment:
-    #   - ""

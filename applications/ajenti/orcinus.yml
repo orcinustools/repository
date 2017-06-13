@@ -1,8 +1,7 @@
 stack: "ajenti"
 
 services:
-  ghost:
+  ajenti:
     image: "ninja.ijakarta.id/ajenti"
-    container_name: "some-ghost"
-    ports:
-    - "8080:2368"
+    labels:
+      traefik.port: "80"

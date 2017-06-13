@@ -2,5 +2,5 @@ stack: "nagios"
 services:
   nagios:
     image: "ninja.ijakarta.id/nagios"
-    ports:
-    - "8000:80"
+    labels:
+      traefik.port: "80"

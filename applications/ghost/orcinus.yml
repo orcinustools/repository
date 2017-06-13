@@ -1,7 +1,6 @@
 stack: "ghost"
-
 services:
   ghost:
     image: "ghost"
-    ports:
-    - "8000:2368"
+    labels:
+      traefik.port: "2368"
