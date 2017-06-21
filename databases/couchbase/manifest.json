@@ -2,7 +2,7 @@
   "name" : "couchbase",
   "title": "Couchbase",
   "logo" : "logo.svg",
-  "status": false,
+  "status": true,
   "description" : "Couchbase provides best-in-class Big Data streaming integration with Hadoop, Spark, and Kafka to create better highly customized customer experiences.",
   "dependencies" : []
 }
