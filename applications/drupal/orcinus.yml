@@ -1,0 +1,9 @@
+stack: "drupal"
+
+services:
+  wordpress:
+    image: "drupal:latest"
+    endpoint: "80"
+    environment:
+      - "WORDPRESS_DB_HOST={orcinus.userid}-{orcinus.stack}-mysql:3306"
+      - "WORDPRESS_DB_PASSWORD=root"

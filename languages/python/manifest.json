@@ -2,6 +2,7 @@
   "name" : "python",
   "title": "Python",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   "dependencies" : []
 }

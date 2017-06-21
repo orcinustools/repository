@@ -2,6 +2,7 @@
   "name" : "alpine",
   "title": "Alpine Linux",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.",
   "dependencies" : []
 }

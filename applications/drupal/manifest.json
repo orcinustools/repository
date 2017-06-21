@@ -1,0 +1,10 @@
+{
+  "name" : "drupal",
+  "title" : "Drupal",
+  "logo" : "logo.svg",
+  "status": false,
+  "description" : "Open source platform for building amazing digital experiences. It's made by a dedicated community. Anyone can use it, and it will always be free.",
+  "dependencies" : [
+    "databases/postgresql"
+  ]
+}

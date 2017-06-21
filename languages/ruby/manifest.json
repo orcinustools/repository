@@ -2,6 +2,7 @@
   "name" : "ruby",
   "title": "Ruby",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "A dynamic, open source programming language with a focus on simplicity and productivity.",
   "dependencies" : []
 }

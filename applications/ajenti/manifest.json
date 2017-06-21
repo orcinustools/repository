@@ -2,6 +2,7 @@
   "name" : "ajenti",
   "title": "Ajenti",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "The admin panel your servers deserve.",
   "dependencies" : []
 }

@@ -2,6 +2,7 @@
   "name" : "postgresql",
   "title" : "PostgreSQL",
   "logo" : "logo.svg",
+  "status": true,
   "description" : "The world's most advanced open source database.",
   "dependencies" : []
 }

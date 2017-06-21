@@ -2,6 +2,7 @@
   "name" : "nagios",
   "title" : "Nagios",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "The Industry Standard In IT Infrastructure Monitoring.",
   "dependencies" : []
 }

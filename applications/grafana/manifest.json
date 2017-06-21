@@ -2,6 +2,7 @@
   "name" : "grafana",
   "title" : "Grafana",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "The open platform for beautiful analytics and monitoring.",
   "dependencies" : []
 }

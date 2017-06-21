@@ -2,6 +2,7 @@
   "name" : "opensuse",
   "title": "Open Suse",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "The makers' choice for sysadmins, developers and desktop users.",
   "dependencies" : []
 }

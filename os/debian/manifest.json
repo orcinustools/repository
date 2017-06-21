@@ -2,6 +2,7 @@
   "name" : "debian",
   "title": "Debian",
   "logo" : "logo.svg",
+  "status": false,
   "description" : "An operating system is the set of basic programs and utilities that make your computer run.",
   "dependencies" : []
 }

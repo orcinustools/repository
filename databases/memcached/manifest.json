@@ -2,6 +2,7 @@
   "name" : "memcached",
   "title" : "Memcached",
   "logo" : "logo.svg",
+  "status": true,
   "description" : "Free & open source, high-performance, distributed memory object caching system.",
   "dependencies" : []
 }

@@ -2,6 +2,7 @@
   "name" : "mongodb",
   "title" : "MongoDB",
   "logo" : "logo.svg",
+  "status": true,
   "description" : "The best way to deploy, operate, and scale MongoDB in the cloud.",
   "dependencies" : []
 }

@@ -2,6 +2,7 @@
   "name" : "mysql",
   "title" : "MySQL",
   "logo" : "logo.svg",
+  "status": true,
   "description" : "The world's most popular open source database.",
   "dependencies" : []
 }

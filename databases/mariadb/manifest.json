@@ -2,6 +2,7 @@
   "name" : "mariadb",
   "title": "MariaDB",
   "logo" : "logo.svg",
+  "status": true,
   "description" : "MariaDB turns data into structured information in a wide array of applications, ranging from banking to websites.",
   "dependencies" : []
 }
