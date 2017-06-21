@@ -8,7 +8,8 @@
         "grafana",
         "joomla",
         "nagios",
-        "wordpress"
+        "wordpress",
+        "drupal"
       ]
     },
     {
@@ -17,17 +18,38 @@
         "postgresql",
         "redis",
         "mongo",
-        "memchached"
+        "memchached",
+        "mariadb",
+        "couchdb",
+        "couchbase",
+        "cassandra"
       ]
     },
     {
       "frameworks":[
-        "laravel"
+        "laravel",
+        "django",
+        "flask",
+        "rails"
       ]
     },
     {
       "os":[
-        "alpine"
+        "alpine",
+        "centos",
+        "debian",
+        "fedora",
+        "opensuse",
+        "ubuntu"
+      ]
+    },
+    {
+      "languages": [
+        "golang",
+        "nodejs",
+        "php",
+        "python",
+        "ruby"
       ]
     }
   ]
