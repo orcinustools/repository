@@ -4,6 +4,7 @@ services:
   joomla:
     image: "ninja.ijakarta.id/joomla:3.6.5-apache"
     endpoint: "80"
+    auth: true
     environment:
       - "JOOMLA_DB_HOST={orcinus.userid}-{orcinus.stack}-mysql:3306"
       - "JOOMLA_DB_PASSWORD=root"
