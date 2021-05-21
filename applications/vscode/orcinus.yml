@@ -1,0 +1,13 @@
+stack: "vscode"
+
+services:
+  vscode:
+    image: "ghcr.io/linuxserver/code-server"
+    auth: true
+    endpoint: "8443"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Jakarta
+      - PASSWORD=qwerty
+      - SUDO_PASSWORD=qwerty

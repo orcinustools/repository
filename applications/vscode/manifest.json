@@ -1,0 +1,7 @@
+{
+  "name" : "vscode",
+  "title" : "VS Code",
+  "logo" : "logo.svg",
+  "status": true,
+  "description" : "powerfull code editor"
+}
