@@ -3,5 +3,6 @@
   "title" : "VS Code",
   "logo" : "logo.svg",
   "status": true,
-  "description" : "powerfull code editor"
+  "description" : "powerfull code editor",
+  "dependencies" : []
 }
